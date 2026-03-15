@@ -1,0 +1,68 @@
+{
+  "HALProvider": {
+    "Other Devices": {
+      "SPARK MAX [12] RELATIVE ENCODER": {
+        "header": {
+          "open": true
+        }
+      }
+    },
+    "RoboRIO": {
+      "RoboRIO Input": {
+        "open": true
+      }
+    }
+  },
+  "NTProvider": {
+    "types": {
+      "/FMSInfo": "FMSInfo",
+      "/Pose": "Field2d",
+      "/SmartDashboard/Module 0": "Mechanism2d",
+      "/SmartDashboard/Module 1": "Mechanism2d",
+      "/SmartDashboard/Module 2": "Mechanism2d",
+      "/SmartDashboard/Module 3": "Mechanism2d",
+      "/SmartDashboard/PathPlanner": "Alerts",
+      "/SmartDashboard/SendableChooser[0]": "String Chooser",
+      "/SmartDashboard/Set Blue Forward": "Command",
+      "/SmartDashboard/Set Red Forward": "Command"
+    },
+    "windows": {
+      "/Pose": {
+        "bottom": 1638,
+        "height": 8.051901817321777,
+        "left": 534,
+        "right": 3466,
+        "top": 291,
+        "width": 17.54825210571289
+      }
+    }
+  },
+  "NetworkTables": {
+    "transitory": {
+      "DriveState": {
+        "Pose2d##v_/DriveState/Pose": {
+          "open": true
+        },
+        "open": true
+      },
+      "Pose": {
+        "open": true
+      },
+      "Shuffleboard": {
+        "open": true
+      },
+      "SmartDashboard": {
+        "PathPlanner": {
+          "open": true
+        },
+        "open": true
+      }
+    }
+  },
+  "NetworkTables Info": {
+    "visible": true
+  },
+  "NetworkTables View": {
+    "visible": false
+  }
+}
